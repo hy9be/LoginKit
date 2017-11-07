@@ -33,7 +33,7 @@ public struct FullNameRule: ValidationRule {
     }
 
     public func validate(input: String?) -> Bool {
-        guard let input = input else {
+        /*guard let input = input else {
             return false
         }
 
@@ -49,7 +49,7 @@ public struct FullNameRule: ValidationRule {
         
         guard first.characters.count > 1, last.characters.count > 1 else {
             return false
-        }
+        }*/
 
         return true
     }
