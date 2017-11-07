@@ -8,9 +8,8 @@ All you need to do is start LoginKit, and then make the necessary calls to your 
                        DESC
   s.homepage         = 'https://github.com/icalialabs/LoginKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Daniel Lozano' => 'dan@danielozano.com' }
-  s.source           = { :git => 'https://github.com/icalialabs/LoginKit.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/danlozanov'
+  s.author           = { 'hy9be_uva' => 'hy9be@virginia.edu' }
+  s.source           = { :git => 'https://github.com/hy9be/LoginKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
