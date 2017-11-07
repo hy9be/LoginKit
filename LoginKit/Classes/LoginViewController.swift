@@ -178,7 +178,10 @@ extension LoginViewController {
     }
 
     func validateFields(success: () -> Void) {
-        var errorFound = false
+        success()
+        return
+        
+        /*var errorFound = false
         for field in fields {
             let result = field.validate()
             switch result {
@@ -193,7 +196,7 @@ extension LoginViewController {
         }
         if !errorFound {
             success()
-        }
+        }*/
     }
 
 }
